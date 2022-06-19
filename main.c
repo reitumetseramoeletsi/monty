@@ -2,7 +2,6 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-/*char **op_toks = NULL;*/
 
 /**
  * main - the entry point for Monty Interp

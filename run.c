@@ -79,8 +79,7 @@ void (*get_op_func(char *opcode))(stack_t**, unsigned int)
 		{"swap", monty_swap},		
 		{"add", monty_add},
 		{"nop", monty_nop},
-
-/*		{"sub", monty_sub},
+		{"sub", monty_sub},
 		{"div", monty_div},
 		{"mul", monty_mul},
 		{"mod", monty_mod},
@@ -90,7 +89,6 @@ void (*get_op_func(char *opcode))(stack_t**, unsigned int)
 		{"rotr", monty_rotr},
 		{"stack", monty_stack},
 		{"queue", monty_queue},
-		*/
 		{NULL, NULL}
 	};
 	int i;
